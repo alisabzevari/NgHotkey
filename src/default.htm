@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>NgHotkey</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+</head>
+<body ng-app="app">
+    <h1>NgHotkey</h1>
+    
+    <input type="text" />
+    
+    <input type="text" hotkey="h ?" hotkey-action="keyup" />
+    
+    <input type="button" hotkey="ctrl+;"/>
+
+    <script src="scripts/lib/jquery-1.10.2.min.js"></script>
+    <script src="scripts/lib/angular.js"></script>
+    <script src="scripts/lib/mousetrap.js"></script>
+    <script src="scripts/nghotkey.js"></script>
+    <script>
+        var app = angular.module('app', ['nghotkey']);
+    </script>
+</body>
+</html>
