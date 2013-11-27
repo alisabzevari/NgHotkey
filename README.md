@@ -7,6 +7,7 @@ Provide hotkey functionality in AngularJS using [Mousetrap](https://github.com/c
 1. Include nghotkey on your page
 
   ```html
+  <script src="/path/to/mousetrap.min.js"></script>
   <script src="/path/to/nghotkey.js"></script>
   ```
   
